@@ -6,17 +6,6 @@ A step-by-step guide to manually deploying a Kubernetes cluster on AWS using EC2
 
 ---
 
-## 📋 Table of Contents
-
-1. [Overview](overview.md)  
-2. [Local Environment Setup (macOS)](local-environment-setup.md)  
-3. [AWS Infrastructure Setup](aws-infrastructure-setup.md)  
-4. [Kubernetes Cluster Setup](kubernetes-cluster-setup.md)  
-5. [Cleanup](cleanup.md)  
-6. [Lessons Learned & References](lessons-learned.md)
-
----
-
 ## 🧠 Overview
 
 This project walks through how to build a Kubernetes cluster from scratch on AWS using EC2 instances and manual component setup. No managed services. No shortcuts. Just raw Kubernetes knowledge.
@@ -27,6 +16,19 @@ This project walks through how to build a Kubernetes cluster from scratch on AWS
 - Deploy a working multi-node cluster using AWS EC2
 - Use Terraform and bash scripts minimally, focusing on core Kubernetes components
 - Document each step clearly and reproducibly
+
+---
+## 🏨 Visualizing AWS VPC Networking (Hotel Analogy)
+
+Before diving into the full setup, I highly recommend reviewing this **hotel analogy** I created to simplify AWS VPC networking concepts.  
+It’s a standalone learning aid—not directly part of the Kubernetes the Hard Way setup—but it helps visualize what you're about to build.
+
+🔹 **Why this analogy?**  
+Because VPCs, subnets, route tables, and gateways can be confusing at first. This approach offers an intuitive way to "see" how it all fits together.
+
+📌 **[Explore the full analogy with diagram →](00-Analogy.md)**
+
+![VPC Hotel Analogy](vpc-hotel-analogy.jpg)
 
 ---
 

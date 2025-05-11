@@ -290,7 +290,7 @@ A route table contains rules (routes) that determine how traffic is directed bet
         - `--destination-cidr-block 0.0.0.0/0`: This specifies the destination CIDR block for the route. 0.0.0.0/0 means the route applies to all IP addresses, i.e., all outbound traffic. 
         - `--gateway-id ${INTERNET_GATEWAY_ID}`: This option specifies the ID of the Internet Gateway through which traffic will be routed. ${INTERNET_GATEWAY_ID} is the variable holding the ID of the Internet Gateway that was created and tagged earlier.
 
-#### Security Groups (Firewall Rules) 
+#### Security Groups (Firewall Rules) HERE START
 1. Create a security group
     ```
     SECURITY_GROUP_ID=$(aws ec2 create-security-group \
